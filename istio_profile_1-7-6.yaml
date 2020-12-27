@@ -5,6 +5,7 @@ metadata:
   name: istio-control-plane
 spec:
   meshConfig:
+    accessLogFile: /dev/stdout
     outboundTrafficPolicy:
       mode: REGISTRY_ONLY
     defaultConfig:
